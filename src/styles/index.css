@@ -1,0 +1,187 @@
+/* Default Settings */
+
+:root {
+    /* fonts */
+    --RobotoFont: 'Roboto', sans-serif;
+    /* colours */
+    --brandColor: #1D9BF0;
+    --softGray: #536471;
+    --gray: #cfd9de;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: var(--RobotoFont);
+    font-size: 1.6rem;
+}
+
+button {
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/* header */
+.header {
+    margin: 2rem;
+}
+
+.headerIcon {
+    color: var(--brandColor);
+    font-size: 3rem;
+}
+
+/* Main */
+
+.mainHero {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.mainTitles {
+    margin: 2rem 0;
+    font-weight: 700;
+    width: 80%;
+    max-width: 30rem;
+}
+
+h1.mainTitle {
+    font-size: 3.4rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Login Buttons */
+
+.mainButtons {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    min-width: 30rem;
+}
+
+.mainButton {
+    padding: 1rem;
+    border: 0;
+    border-radius: 1.5rem;
+    font-size: 1.8rem;
+    margin: 1rem 0;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.whiteButton {
+    border: 1px solid var(--gray);
+    background-color: white;
+}
+
+.whiteButton:hover {
+    box-shadow: 1px 1px 2px 2px var(--gray);
+    color: var(--softGray);
+}
+
+.whiteBlueButton {
+    color: var(--brandColor);
+}
+
+.buttonBlue {
+    background-color: var(--brandColor);
+    color: white;
+}
+
+.mainDivision {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    font-size: 1.6rem;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.mainDivision div {
+    border-top: 1px solid var(--gray);
+    width: 45%;
+}
+
+.termsAdvice {
+    font-size: 1.1rem;
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+.termsAdvice a{
+    color: var(--brandColor);
+}
+
+.mainSignIn {
+    margin: 5rem 0;
+}
+
+/* Background */
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    background-image: url('https://abs.twimg.com/sticky/illustrations/lohp_850x623.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.whiteIcon {
+    color: white;
+    font-size: 30rem;
+}
+
+/* Footer */   
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+.footer li {
+    margin: 0.5rem 0.5rem;
+}
+.footer li a {
+    color: var(--softGray);
+}
+
+.footer li a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.footerList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

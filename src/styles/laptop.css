@@ -1,0 +1,41 @@
+.helper {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+.background, .helperContent {
+    width: 50%;
+    height: 100%;
+}
+
+.mainButton { 
+    display: block;
+    width: 30rem;
+    margin: 1rem 0;
+
+}
+
+h1.mainTitle {
+    font-size: 5rem;
+}
+
+.mainDivision {
+    max-width: 30rem;
+    margin: 0;
+}
+
+.termsAdvice {
+    width: 30rem;
+}
+
+.footer {
+    height: 10vh;
+}
