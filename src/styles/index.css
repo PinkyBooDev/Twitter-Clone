@@ -1,46 +1,3 @@
-/* Default Settings */
-
-:root {
-    /* fonts */
-    --RobotoFont: 'Roboto', sans-serif;
-    /* colours */
-    --brandColor: #1D9BF0;
-    --softGray: #536471;
-    --gray: #cfd9de;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font-size: 62.5%;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    list-style: none;
-}
-
-body {
-    font-family: var(--RobotoFont);
-    font-size: 1.6rem;
-}
-
-button {
-    transition-property: all;
-    transition-duration: 0.3s;
-    transition-timing-function: ease;
-}
-
-button:hover {
-    cursor: pointer;
-}
 
 /* header */
 .header {
@@ -161,8 +118,6 @@ h1.mainTitle {
 
 /* Footer */   
 .footer {
-    position: absolute;
-    bottom: 0;
     width: 100%;
     padding: 2rem;
     font-size: 1.2rem;
